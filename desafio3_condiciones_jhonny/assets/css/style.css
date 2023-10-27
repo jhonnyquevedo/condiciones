@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    border: 1px solid;
+    margin-top: 10%;
+}
+
+.selects{
+    display: flex;
+}
+
+button{
+    padding: 3px;
+}
