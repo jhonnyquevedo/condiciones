@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stickers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.stickers img{
+    width: 250px;
+    padding-bottom: 20px;
+    border: solid 1px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.stickers .sticker1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stickers .sticker2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stickers .sticker3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
